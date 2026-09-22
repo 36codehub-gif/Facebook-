@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <header class="navbar">
+        <div class="logo">facebook</div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Facebook">
+        </div>
+        <div class="nav-icons">
+            <i class="fas fa-home active"></i>
+            <i class="fas fa-user-friends"></i>
+            <i class="fas fa-bell"></i>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        
+        <!-- Create Post Box -->
+        <div class="create-post-card">
+            <div class="post-top">
+                <img src="https://via.placeholder.com/40" class="profile-pic" alt="User">
+                <input type="text" id="post-input" placeholder="What's on your mind?">
+            </div>
+            <hr>
+            <div class="post-actions">
+                <button id="publish-btn"><i class="fas fa-edit" style="color:#1877f2;"></i> Post</button>
+            </div>
+        </div>
+
+        <!-- News Feed Container -->
+        <div id="news-feed">
+            <!-- Dynamic Posts will be added here -->
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
